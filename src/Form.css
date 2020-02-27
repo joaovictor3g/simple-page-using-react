@@ -1,0 +1,41 @@
+#input-group{ 
+    background-color: #e1e1e1; 
+    width: 500px; 
+    height: 600px; 
+    left: 50%; 
+    padding: 10px;
+    margin: -130px 0 0 -210px; 
+    position: relative;
+    top: 50%; 
+    font-size: 15px;
+    display: grid;
+    align-items: center;
+    margin-top: 50px;
+
+}
+#nome {
+    width: 300px;
+    height: 25px;
+    left: 0%;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
+#rg {
+    width: 400px;
+    height: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#cpf {
+    width: 400px;
+    height: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#idade {
+    width: 400px;
+    height: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
