@@ -8,7 +8,6 @@ function disparaNoClick() {
 }
 
 const Form = () => (
-    
     <div className="App" >
       <div id="input-group">
         Nome:<input id="nome" type="text" placeholder="Digite seu nome"></input>
