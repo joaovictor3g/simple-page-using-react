@@ -9,9 +9,6 @@ function disparaNoClick() {
 
 const Form = () => (
     <div className="App" >
-      <ul>
-        <li>Fazer Café</li>
-      </ul>
       <div id="input-group">
         <h1>Cadastro de Pessoas</h1>
         Nome:<input id="nome" type="text" placeholder="Digite seu nome"></input>
