@@ -1,5 +1,21 @@
 body {
     background-color: #ebf0fa;
+    
+}
+
+#input-group{ 
+    background-color: #d9d9d9; 
+    width: 500px; 
+    height: 600px; 
+    left: 50%; 
+    padding: 40px;
+    margin: -130px 0 0 -210px;
+    position: relative;
+    top: 50%; 
+    font-size: 15px;
+    margin-top: 50px;
+    position: grid;
+   
 }
 
 h1 {
@@ -8,73 +24,76 @@ h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#input-group{ 
-    background-color: #d9d9d9; 
-    width: 500px; 
-    height: 600px; 
-    left: 50%; 
-    padding: 10px;
-    margin: -130px 0 0 -210px;
-    position: relative;
-    top: 50%; 
-    font-size: 15px;
-    margin-top: 50px;
-
-}
-#nome {
-    width: 300px;
-    height: 25px;
-    left: 0%;
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: left;
-}
-#rg {
-    width: 400px;
-    height: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-#cpf {
-    width: 400px;
-    height: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-#idade {
-    width: 400px;
-    height: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
+div#text-name {
+   color: #7d40e7;
+   font-size: 15px;
+   text-align: left;
 }
 
-#button-group {
-    margin-top: 280px;
-    padding: 0%;
-}
 
-#salvar {
-    margin-left: 50px;
-    margin-right: 50px;
-    width: 100px;
+
+input#nome {
+    width: 500px;
     height: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 17px;
+    
+
+}
+
+input#rg {
+    width: 500px;
+    height: 30px;
+}
+
+input#cpf {
+    width: 500px;
+    height: 30px;
+}
+
+input#idade {
+    width: 500px;
+    height: 30px;
+}
+
+button#salvar {
+    width: 49.5%;
+    border: 0;
+    background: #7d40e7;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5;
+    margin-top: 150px;
+    margin-right: 1%;
    
 }
 
-#atualizar {
-    margin-right: 50px;
-    width: 100px;
-    height: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 17px;
+button#atualizar {
+    width: 49.5%;
+    border: 0;
+    background: #7d40e7;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5;
+    margin-top: 10px;
 }
 
-#excluir {
-    margin-right: 50px;
-    width: 100px;
-    height: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 17px;
+button#excluir {
+    width: 100%;
+    border: 0;
+    background: #7d40e7;
+    border-radius: 2px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.5;
+    margin-top: 1%;
 }
